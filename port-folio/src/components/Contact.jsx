@@ -27,7 +27,7 @@ export default function Contact() {
             );
     };
     return (
-        <>
+        <div  id="contact">
             {/* Contact 1 */}
             <div className="w-full max-w-5xl my-0 mx-auto text-center mt-5">
                 <h1 className="text-4xl mb-4">Contact Me</h1>
@@ -73,16 +73,8 @@ export default function Contact() {
                     >
                         {CONTACT.email}
                     </motion.a>
-                    <motion.p
-                        whileInView={{ opacity: 1, x: 0 }}
-                        initial={{ opacity: 0, x: -100 }}
-                        transition={{ duration: 0.5 }}
-                        className="my-4"
-                    >
-                        {CONTACT.address}
-                    </motion.p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
