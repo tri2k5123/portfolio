@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 // import project4 from "../assets/projects/project-4.jpg";
 
 
@@ -58,31 +58,32 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
-    link: "https://ryanflo.vercel.app/",
+    link: "https://ryanflorida.shop/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["Javascript", "Tailwind", "ReactJs", "NextJs", "MongoDB"],
   },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  // },
+  {
+    title: "Medical Appointment Schedule App",
+    image: project2,
+    link: "https://medical-appointment-scheduling-99ojpctd7-tris-projects-e40cd64d.vercel.app",
+    description:
+      "An application to schedule medical examinations for patients and manage schedules for doctors, with features such as SMS notifications when appointments are confirmed, synthesis and statistics of appointment history in the system",
+    technologies: ["TypeScript", "Tailwind", "ReactJs", "NextJs", "Sentry", "Appwrite"],
+  },
+  {
+    title: "Note App",
+    image: project3,
+    description:
+      "a small application for saving notes, with features such as creating folders, creating notes",
+    technologies: ["React/Vite", "MongoDB", "GraphQL", "ExpressJs","NodeJs", "FireBase"],
+  },
   // {
   //   title: "Portfolio Website",
   //   image: project3,
   //   description:
   //     "A personal portfolio website showcasing projects, skills, and contact information.",
   //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  // },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   // },
 ];
 
