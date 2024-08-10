@@ -74,6 +74,7 @@ export const PROJECTS = [
   {
     title: "Note App",
     image: project3,
+    link: "https://note-app-fe-neon.vercel.app/",
     description:
       "a small application for saving notes, with features such as creating folders, creating notes",
     technologies: ["React/Vite", "MongoDB", "GraphQL", "ExpressJs","NodeJs", "FireBase"],
